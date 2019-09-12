@@ -1,0 +1,17 @@
+{
+	name: "Test Updater by Misha",
+	slug: "test-updater",
+	download_url: "https://github.com/Herihasina/bhmcloaking/archive/master.zip",
+	version: "1.2",
+	requires: "3.0",
+	tested: "4.8.1",
+	last_updated: "2017-08-17 02:10:00",
+	upgrade_notice: "Plugin update is available.",
+	author: "Misha Rudrastyh",
+	author_homepage: "https://rudrastyh.com",
+	sections: {
+		description: "This is the plugin to test your updater script",
+		installation: "Upload the plugin to your blog, Activate it, that's it!",
+		changelog: "<h4>1.1 – August 17, 2017</h4><ul><li>Some bugs are fixed.</li><li>Release date.</li></ul>"
+	}
+}
