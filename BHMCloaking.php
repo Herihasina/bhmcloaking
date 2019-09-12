@@ -1,11 +1,11 @@
 <?php
 /**
  * @package BHMCloaking
- * @version 1.0
+ * @version 1.0.0
  */
 /*
 *	Plugin Name: BHMCloaking
-*	Version: 1.0
+*	Version: 1.0.0
 *	Description: Plugin de cloaking
 *	Author: herihasina
 * Author URI: https://profiles.wordpress.org/herihasina/
@@ -14,6 +14,17 @@
 */
 ?>
 <?php
+
+if( ! class_exists( 'Bhm_updater' ) ){
+	include_once( plugin_dir_path( __FILE__ ) . 'Bhm_updater.php' );
+}
+
+$updater = new Bhm_updater( __FILE__ ); // instantiate our class
+$updater->set_username( 'Herihasina' ); // set username
+$updater->set_repository( 'bhmcloaking' ); // set repo
+$updater->authorize( 'faf47d6a5e522ee2400b1864f77b403beb64d3ff' );
+$updater->initialize(); // initialize the updater
+
 
 require( $_SERVER['DOCUMENT_ROOT'] .'/wp-load.php' );
 
@@ -391,6 +402,10 @@ function bhm_push_update( $transient ){
  
 		// your installed plugin version should be on the line below! You can obtain it dynamically of course 
 		if( $remote && version_compare( '1.0', $remote->version, '<' ) && version_compare($remote->requires, get_bloginfo('version'), '<' ) ) {
+			add_filter( 'plugin_action_links_' . plugin_basename(__FILE__), 'add_action_links' );
+
+
+
 			$res = new stdClass();
 			$res->slug = 'bhmcloaking';
 			$res->plugin = 'bhmcloaking/bhmcloaking.php'; // it could be just YOUR_PLUGIN_SLUG.php if your plugin doesn't have its own directory
@@ -403,3 +418,19 @@ function bhm_push_update( $transient ){
 	}
         return $transient;
 }
+
+function add_action_links ( $links ) {
+ $mylinks = array(
+ '<a href="' . admin_url( 'admin.php?page=bhmcloaking' ) . '">Settings</a>',
+ );
+return array_merge( $links, $mylinks );
+}
+
+
+function prefix_plugin_update_message( $data, $response ) { die("ft");
+	printf(
+		'<div class="update-message"><p><strong>%s</strong></p></div>',
+		__( 'Version 2.3.4 is a recommended update', 'text-domain' )
+	);
+}
+add_action( 'in_plugin_update_message-BHMCloaking/BHMCloaking.php', 'prefix_plugin_update_message', 10, 2 );

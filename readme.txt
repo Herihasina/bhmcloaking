@@ -1,10 +1,10 @@
-=== BHMCloaking ===
+﻿=== BHMCloaking ===
 Contributors: herihasina
 Tags: cloaking,cloaking par catégorie,redirection 301,cloaking de contenu
 Requires at least: 4
 Tested up to: 5.2.3
 Requires PHP: 7
-Stable tag: trunk
+Stable tag: 1.0.0
 License: GPL
 
 Cloaking plugin

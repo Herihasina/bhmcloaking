@@ -2,7 +2,7 @@
 	name: "Test Updater by Misha",
 	slug: "test-updater",
 	download_url: "https://github.com/Herihasina/bhmcloaking/archive/master.zip",
-	version: "1.2",
+	version: "1.1",
 	requires: "3.0",
 	tested: "4.8.1",
 	last_updated: "2017-08-17 02:10:00",
