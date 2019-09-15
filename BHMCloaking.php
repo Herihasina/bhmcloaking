@@ -17,6 +17,11 @@
 require( $_SERVER['DOCUMENT_ROOT'] .'/wp-load.php' );
 require_once dirname( __FILE__ ) . '/inc/func.php';
 
+//custom updates/upgrades
+$this_file = __FILE__;
+$update_check = "http://dev.remote/update.chk";
+require_once dirname( __FILE__ ) . '/inc/gill-updates.php';
+
 add_action('admin_menu', 'hcloak_options_page');
 
 add_action(	'admin_enqueue_scripts', 'hcloak_style'); 
@@ -53,3 +58,56 @@ if ( get_option('hcloak') == "hcloak_referer")
 	cloak_referer();	
 
 add_action('admin_notices', 'settings_invite');
+
+
+add_filter('plugins_api', 'bhmcloaking_update_info', 20, 3);
+
+function bhmcloaking_update_info( $res, $action, $args ){
+ 
+	if( $action !== 'plugin_information' )
+		return false;
+ 
+	if( 'BHMCloaking' !== $args->slug )
+		return $res;
+ 
+ 
+		$remote = wp_remote_get( 'https://gofile.io/?c=HpzsKv', array(
+			'timeout' => 10,
+			'headers' => array(
+				'Accept' => 'application/json'
+			) )
+		);
+ 
+		if ( !is_wp_error( $remote ) && isset( $remote['response']['code'] ) && $remote['response']['code'] == 200 && !empty( $remote['body'] ) ) {
+			set_transient( 'upgrade_BHMCloaking', $remote, 43200 ); // 12 hours cache
+		}
+ 	$res = '';
+	if( $remote ) {
+		$remote =  json_decode($remote['body']); 
+		$res = new stdClass();
+		$res->name = $remote->name;
+		$res->slug = $remote->slug;
+		$res->requires = "4";
+		$res->version = $remote->version;
+		$res->author = "Black Hat Money";
+		$res->author_profile = $remote->author;
+		$res->download_link = $remote->author_homepage;
+		$res->trunk = "http://trunk.lnk";
+		$res->last_updated = "09/15/2019";
+		$res->sections = array(
+			'description' => $remote->sections->description, // description tab
+			'installation' => $remote->sections->installation, // installation tab
+		);
+ 
+ 
+		$res->banners = array(
+			'low' => dirname( __FILE__ ). '/inc/ban-logo-dark.jpg',
+      'high' => dirname( __FILE__ ). '/inc/ban-logo-dark.jpg'
+		);
+		
+           	
+ 
+	}
+ return $res;
+ 
+}

@@ -1,10 +1,10 @@
 ﻿=== BHMCloaking ===
-Contributors: herihasina
-Tags: cloaking,cloaking par catégorie,redirection 301,cloaking de contenu
+Contributors: Black Hat Money
+Tags: Cloaking
 Requires at least: 4
 Tested up to: 5.2.3
-Requires PHP: 7
-Stable tag: 1.0.0
+Requires PHP: 5
+Stable tag: 1.1
 License: GPL
 
 Cloaking plugin
