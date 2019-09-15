@@ -1,6 +1,7 @@
 .form-content {
 	display: flex;
 	margin: 2em 0;
+    position: relative;
 }
 
 .form-content label {
@@ -72,6 +73,10 @@
 .toplevel_page_bhmcloaking .wrap {
 	display: flex;
     justify-content: space-between;
+}
+
+.not-bold {
+    font-weight: 300;
 }
 
 input[type=checkbox].cbox-cat:checked:before {
@@ -150,4 +155,30 @@ input.p-input,
         padding: 0em 0 2em 2em;
     margin-top: 1em;
     border: 1px solid #0000000d;
+}
+.right-part{
+    text-align: center;
+}
+.right-part img {
+    width: 50%;
+}
+.clr{
+    clear: both;
+}
+.block_all {
+    position: absolute;
+    right: 0;
+    width: 48%;
+        display: flex;
+}
+.block_all_label.disabled {
+    color: #999;
+    opacity: 0.5;    
+}
+#block_all.disabled,
+.block_all_label.disabled {
+    cursor: unset;
+}
+.wp-menu-image {
+    background: url(hat.svg) no-repeat center;
 }

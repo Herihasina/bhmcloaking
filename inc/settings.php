@@ -1,1 +1,136 @@
-<?php eval(base64_decode('CiBnb3RvIEl1OW9SOyBJdTlvUjogPz4KPGRpdiBjbGFzcz0ib3ZlcmxheS1oIj48aW1nIHNyYz0iPD9waHAgIGdvdG8gUm1pX0E7IGNEb2V6OiBmb3JlYWNoICgkY2F0cyBhcyAka2V5ID0+ICRjYXQpIHsgPz4KPHRhYmxlPjx0cj48dGQ+PGlucHV0IGNsYXNzPSJjYm94LWNhdCJuYW1lPSJoY2xvYWtfPD9waHAgIGVjaG8gJGtleTsgPz4KInZhbHVlPSIxInR5cGU9ImNoZWNrYm94Ijw/cGhwICBjaGVja2VkKGdldF9vcHRpb24oIlwxNTBceDYzXDE1NFwxNTdceDYxXDE1M1x4NWYiIC4gJGtleSksIDEpOyA/Pgo+PC90ZD48dGQgY2xhc3M9ImNvbCI+PD9waHAgIGVjaG8gJGNhdC0+bmFtZTsgPz4KPC90ZD48dGQ+PGlucHV0IGNsYXNzPSJwLWlucHV0Im5hbWU9ImhjbG9ha191cmxfPD9waHAgIGVjaG8gJGtleTsgPz4KInZhbHVlPSI8P3BocCAgZWNobyBnZXRfb3B0aW9uKCJceDY4XDE0M1x4NmNcMTU3XHg2MVx4NmJcMTM3XHg3NVwxNjJcMTU0XDEzNyIgLiAka2V5KTsgPz4KInR5cGU9InVybCJwbGFjZWhvbGRlcj0iVVJMIGRlIHJlZGlyZWN0aW9uIj48L3RkPjwvdHI+PC90YWJsZT48P3BocCAgfSBnb3RvIGRua3BrOyBxZThmajogY2hlY2tlZCgiXHg2M1wxNTRceDZmXHg2MVx4NmJceDVmXDYzXDYwXHgzMSIgPT0gZ2V0X29wdGlvbigiXHg2OFwxNDNcMTU0XDE1N1wxNDFcMTUzIikpOyBnb3RvIEhxR2loOyBIQV83TTogJHNldHRpbmdzID0gYXJyYXkoIlx4NzRcMTQ1XDE3MFx4NzRceDYxXDE2MlwxNDVceDYxXHg1ZlwxNTZcMTQxXHg2ZFx4NjUiID0+ICJcMTUwXDE0M1x4NmNceDZmXDE0MVwxNTNcMTM3XDE0M1x4NmZceDZlXHg3NFx4NjVcMTU2XDE2NFwxMzdcMTY0XHg2NVwxNzBcMTY0XDE0MVwxNjJcMTQ1XDE0MSIsICJceDc0XHg2NVwxNzBcMTY0XHg2MVwxNjJcMTQ1XDE0MVwxMzdcMTYyXDE1N1x4NzdceDczIiA9PiA1LCAiXHg3NFwxNDVceDc4XDE2NFx4NjFcMTYyXHg2NVx4NjFcMTM3XHg2OFx4NjVcMTUxXDE0N1x4NjhceDc0IiA9PiAxMDApOyBnb3RvIEZ2VkxxOyB3c3lEVDogPz4KPjwvZGl2PjxkaXYgY2xhc3M9InRleHRib3giPjxsYWJlbCBmb3I9ImhjbG9ha19jb250ZW50Ij5DbG9ha2VyIGxlIGNvbnRlbnU8L2xhYmVsPjxkaXYgaWQ9ImhjbG9ha191bml2ZXJzYWxfY29udGVudCI+PHA+RW50cmVyIGxlIG5vdXZlYXUgY29udGVudSBkZXMgYXJ0aWNsZXMuPC9wPjw/cGhwICBnb3RvIEhBXzdNOyB5SDFZTTogPz4KPjwvZGl2PjxkaXYgY2xhc3M9InRleHRib3giPjxsYWJlbCBmb3I9ImhjbG9ha19ub25lIj5BcnLDqnRlciBsZXMgY2xvYWtpbmcgMzAxLCBjb250ZW51LCBjYXTDqWdvcmllIGV0IHLDqWbDqXJlbnQ8L2xhYmVsPjwvZGl2PjwvZGl2PjxkaXYgY2xhc3M9ImZvcm0tY29udGVudCI+PGRpdiBjbGFzcz0iY2hlY2tib3giPjxpbnB1dCBjbGFzcz0iY2JveCBjbG9ha19jaG9pY2UgYWxwaGEibmFtZT0iaGNsb2FrInZhbHVlPSJjbG9ha18zMDEidHlwZT0icmFkaW8iaWQ9ImhjbG9ha18zMDEiPD9waHAgIGdvdG8gcWU4Zmo7IGZxUVZfOiA/PgoidHlwZT0idXJsInBsYWNlaG9sZGVyPSJVUkwgZGUgcmVkaXJlY3Rpb24iPjwvcD48L2Rpdj48L2Rpdj48ZGl2IGNsYXNzPSJmb3JtLWNvbnRlbnQiPjxkaXYgY2xhc3M9ImNoZWNrYm94Ij48aW5wdXQgY2xhc3M9ImNib3ggY2xvYWtfY2hvaWNlIm5hbWU9ImhjbG9hayJ2YWx1ZT0iY2xvYWtfY29udGVudCJ0eXBlPSJyYWRpbyJpZD0iaGNsb2FrX2NvbnRlbnQiPD9waHAgIGdvdG8gaTRMODA7IEJDeUoyOiAkY2F0cyA9IGdldF9jYXRlZ29yaWVzKGFycmF5KCJcMTUwXHg2OVwxNDRceDY1XHg1ZlwxNDVceDZkXDE2MFx4NzRceDc5IiA9PiAwKSk7IGdvdG8gTHdKMzI7IEFpaGtWOiBjaGVja2VkKCJcMTQzXHg2Y1x4NmZcMTQxXHg2Ylx4NWZcMTU2XHg2Zlx4NmVceDY1IiA9PSBnZXRfb3B0aW9uKCJceDY4XDE0M1wxNTRcMTU3XHg2MVx4NmIiKSk7IGdvdG8geUgxWU07IGRua3BrOiA/Pgo8L2Rpdj48L2Rpdj48L2Rpdj48L2Rpdj48L2Rpdj48ZGl2IGNsYXNzPSJmb3JtLWNvbnRlbnQiPjxkaXYgY2xhc3M9ImNoZWNrYm94Ij48aW5wdXQgY2xhc3M9ImNib3ggY2xvYWtfY2hvaWNlIGFscGhhIm5hbWU9ImhjbG9hayJ2YWx1ZT0iaGNsb2FrX3JlZmVyZXIidHlwZT0icmFkaW8iaWQ9ImhjbG9ha19yZWZlcmVyIjw/cGhwICBnb3RvIENZSWhFOyB6RkJVQTogPz4KPjwvZGl2PjxkaXYgY2xhc3M9InRleHRib3giPjxsYWJlbCBmb3I9ImhjbG9ha19yZWZlcmVyIj5DbG9ha2luZyBzdXIgcmVmZXJlcjwvbGFiZWw+PHA+PGlucHV0IGNsYXNzPSJwLWlucHV0Im5hbWU9ImhjbG9ha19yZWZlcmVyX2RvbWFpbiJ2YWx1ZT0iPD9waHAgIGdvdG8gUjEwVjU7IGdYWVJoOiBjaGVja2VkKCJcMTUwXHg2M1wxNTRcMTU3XHg2MVwxNTNceDVmXHg2ZVwxNTdcMTQxXHg3MlwxNDNcMTUwXHg2OVwxNjZceDY1IiA9PSBnZXRfb3B0aW9uKCJcMTUwXDE0M1x4NmNceDZmXDE0MVwxNTNceDVmXDE1NlwxNTdcMTQxXDE2MlwxNDNcMTUwXHg2OVx4NzZcMTQ1IikpOyBnb3RvIEF3bzE3OyBkbzJqdzogZG9fc2V0dGluZ3Nfc2VjdGlvbnMoIlwxNTBcMTQzXHg2Y1x4NmZcMTQxXDE1M1wxMzdceDZmXHg3MFwxNjRceDY5XDE1N1x4NmVceDczIik7IGdvdG8gclhic3Q7IGk0TDgwOiBjaGVja2VkKCJceDYzXDE1NFwxNTdceDYxXDE1M1x4NWZcMTQzXHg2Zlx4NmVceDc0XDE0NVwxNTZcMTY0IiA9PSBnZXRfb3B0aW9uKCJceDY4XDE0M1wxNTRceDZmXHg2MVx4NmIiKSk7IGdvdG8gd3N5RFQ7IFIxMFY1OiBlY2hvIGdldF9vcHRpb24oIlwxNTBceDYzXHg2Y1x4NmZceDYxXHg2YlwxMzdcMTYyXDE0NVwxNDZcMTQ1XHg3MlwxNDVcMTYyXDEzN1x4NjRcMTU3XDE1NVwxNDFceDY5XHg2ZSIpOyBnb3RvIFlIbGZuOyBMMWxCRDogPz4KL2ltYWdlcy9sb2FkaW5nLmdpZiJhbHQ9ImxvYWRpbmciPjwvZGl2PjxkaXYgY2xhc3M9IndyYXAiPjxkaXYgY2xhc3M9ImxlZnQtcGFydCI+PGZvcm0gYWN0aW9uPSJvcHRpb25zLnBocCJtZXRob2Q9InBvc3QiPjw/cGhwICBnb3RvIGhtTjJxOyBBYVN5NjogPz4KPC9mb3JtPjwvZGl2PjxkaXYgY2xhc3M9InJpZ2h0LXBhcnQiPjxpbWcgc3JjPSI8P3BocCAgZ290byBoaFlVUTsgQXdvMTc6ID8+Cj48L2Rpdj48ZGl2IGNsYXNzPSJ0ZXh0Ym94Ij48bGFiZWwgZm9yPSJoY2xvYWtfbm9hcmNoaXZlIj5BY3RpdmVyIGxlcyBtZXRhcyBub2FyY2hpdmUgZXQgbm9zbmlwcGV0PC9sYWJlbD48L2Rpdj48L2Rpdj48P3BocCAgZ290byBKTWtrczsgaGhZVVE6IGVjaG8gcGx1Z2luX2Rpcl91cmwoX19GSUxFX18pOyBnb3RvIFBSem9vOyBZSGxmbjogPz4KInBsYWNlaG9sZGVyPSJEb21haW5lIHJlZmVyZXIgKGV4OiB3aWtpcGVkaWEub3JnKSI+PC9wPjxwPjxpbnB1dCBjbGFzcz0icC1pbnB1dCJuYW1lPSJoY2xvYWtfcmVmZXJlcl9yZWRpcmVjdCJ2YWx1ZT0iPD9waHAgIGdvdG8ga3V5cUs7IFAwWGtIOiA/Pgo+PC9kaXY+PGRpdiBjbGFzcz0idGV4dGJveCI+PGxhYmVsIGZvcj0iaGNsb2FrX3Zpc2l0b3JfZ29vZ2xlIj5DbG9ha2VyIGF2ZWMgbGVzIHNob3J0Y29kZXMgPHNwYW4gY2xhc3M9InJlZCI+W2Nsb2FrR29vZ2xlXVsvY2xvYWtHb29nbGVdPC9zcGFuPiBldCA8c3BhbiBjbGFzcz0icmVkIj5bY2xvYWtWaXNpdG9yXVsvY2xvYWtWaXNpdG9yXTwvc3Bhbj48L2xhYmVsPjwvZGl2PjwvZGl2PjxkaXYgY2xhc3M9ImZvcm0tY29udGVudCI+PGRpdiBjbGFzcz0iY2hlY2tib3giPjxpbnB1dCBjbGFzcz0iY2JveCJuYW1lPSJoY2xvYWtfbm9hcmNoaXZlInZhbHVlPSJoY2xvYWtfbm9hcmNoaXZlInR5cGU9ImNoZWNrYm94ImlkPSJoY2xvYWtfbm9hcmNoaXZlIjw/cGhwICBnb3RvIGdYWVJoOyBDWUloRTogY2hlY2tlZCgiXHg2OFx4NjNceDZjXHg2ZlwxNDFcMTUzXDEzN1x4NzJceDY1XDE0Nlx4NjVceDcyXHg2NVwxNjIiID09IGdldF9vcHRpb24oIlx4NjhceDYzXHg2Y1x4NmZceDYxXDE1MyIpKTsgZ290byB6RkJVQTsgTHdKMzI6ID8+CjxwPkNvY2hlciBsYSBvdSBsZXMgY2F0w6lnb3JpZXMgw6AgY2xvYWtlci48L3A+PHAgY2xhc3M9ImluZm8iPihTZXVsZXMgbGVzIGNhdMOpZ29yaWVzIGNvY2jDqWVzIHNlcm9udCBwcmlzZXMgZW4gY29tcHRlKTwvcD48ZGl2IGNsYXNzPSJjYXRsaXN0Ij48P3BocCAgZ290byBjRG9lejsgQmNWTzE6ID8+Cj48L2Rpdj48ZGl2IGNsYXNzPSJ0ZXh0Ym94Ij48bGFiZWwgZm9yPSJoY2xvYWtfY2F0ZWdvcnkiPkNsb2FrZXIgcGFyIGNhdMOpZ29yaWU8L2xhYmVsPjxkaXYgaWQ9ImhjbG9ha19jYXRlZ29yaWVzIj48ZGl2IGlkPSJsaXN0LWNldGVnb3JpZXMiPjw/cGhwICBnb3RvIEJDeUoyOyBIcUdpaDogPz4KPjwvZGl2PjxkaXYgY2xhc3M9InRleHRib3giPjxsYWJlbCBmb3I9ImhjbG9ha18zMDEiPkNsb2FraW5nIDMwMTwvbGFiZWw+PHA+PGlucHV0IGNsYXNzPSJwLWlucHV0Im5hbWU9ImhjbG9ha18zMDFfZ2VuZXJhbCJ2YWx1ZT0iPD9waHAgIGdvdG8gQXY4MDY7IGJCOHQ2OiB3cF9lZGl0b3IoJGNvbnRlbnQsICJceDc1XDE1NlwxNTFcMTY2XHg2NVwxNjJcMTYzXDE0MVx4NmNcMTM3XHg2M1x4NmZcMTU2XHg3NFx4NjVceDZlXHg3NCIsICRzZXR0aW5ncyk7IGdvdG8gZlFhSks7IHJYYnN0OiA/Pgo8aDIgY2xhc3M9ImNsb2FrLXRpdGxlIj5QYXJhbcOpdHJhZ2UgZHUgY2xvYWtpbmc8L2gyPjxkaXYgY2xhc3M9ImZvcm0tY29udGVudCI+PGRpdiBjbGFzcz0iY2hlY2tib3giPjxpbnB1dCBjbGFzcz0iY2JveCBjbG9ha19jaG9pY2UibmFtZT0iaGNsb2FrInZhbHVlPSJjbG9ha19ub25lInR5cGU9InJhZGlvImlkPSJoY2xvYWtfbm9uZSI8P3BocCAgZ290byBBaWhrVjsgRjZCN0E6IHNldHRpbmdzX2ZpZWxkcygiXHg2OFwxNDNcMTU0XDE1N1wxNDFcMTUzXDEzN1wxNTdcMTYwXHg3NFx4NjlceDZmXDE1NlwxNjMiKTsgZ290byBkbzJqdzsgWGJRMGI6IGNoZWNrZWQoIlx4NjNcMTU0XDE1N1x4NjFcMTUzXDEzN1x4NjNceDYxXDE2NFx4NjVcMTQ3XDE1N1x4NzJcMTcxIiA9PSBnZXRfb3B0aW9uKCJcMTUwXDE0M1wxNTRcMTU3XHg2MVx4NmIiKSk7IGdvdG8gQmNWTzE7IGduOU9SOiA/PgoidHlwZT0idXJsInBsYWNlaG9sZGVyPSJVUkwgZGUgcmVkaXJlY3Rpb24iPjwvcD48L2Rpdj48L2Rpdj48aHI+PGRpdiBjbGFzcz0iZm9ybS1jb250ZW50Ij48ZGl2IGNsYXNzPSJjaGVja2JveCI+PGlucHV0IGNsYXNzPSJjYm94Im5hbWU9ImhjbG9ha192aXNpdG9yX2dvb2dsZSJ2YWx1ZT0iaGNsb2FrX3Zpc2l0b3JfZ29vZ2xlInR5cGU9ImNoZWNrYm94ImlkPSJoY2xvYWtfdmlzaXRvcl9nb29nbGUiPD9waHAgIGdvdG8gS2RBekU7IGt1eXFLOiBlY2hvIGdldF9vcHRpb24oIlwxNTBcMTQzXDE1NFwxNTdcMTQxXDE1M1x4NWZcMTYyXDE0NVwxNDZceDY1XHg3Mlx4NjVceDcyXDEzN1x4NzJcMTQ1XHg2NFx4NjlceDcyXHg2NVx4NjNcMTY0Iik7IGdvdG8gZ245T1I7IGhtTjJxOiBzZXR0aW5nc19lcnJvcnMoKTsgZ290byBGNkI3QTsgRnZWTHE6ICRjb250ZW50ID0gZ2V0X29wdGlvbigiXHg2OFx4NjNceDZjXDE1N1x4NjFcMTUzXDEzN1x4NjNceDZmXDE1NlwxNjRcMTQ1XDE1Nlx4NzRceDVmXDE2NFwxNDVceDc4XDE2NFx4NjFceDcyXHg2NVx4NjEiKTsgZ290byBiQjh0NjsgQXY4MDY6IGVjaG8gZ2V0X29wdGlvbigiXHg2OFwxNDNceDZjXDE1N1x4NjFceDZiXHg1Zlx4MzNcNjBceDMxXDEzN1wxNDdcMTQ1XDE1NlwxNDVceDcyXDE0MVwxNTQiKTsgZ290byBmcVFWXzsgS2RBekU6IGNoZWNrZWQoIlx4NjhcMTQzXHg2Y1wxNTdcMTQxXDE1M1x4NWZceDc2XDE1MVx4NzNcMTUxXDE2NFwxNTdcMTYyXDEzN1wxNDdceDZmXHg2ZlwxNDdcMTU0XHg2NSIgPT0gZ2V0X29wdGlvbigiXDE1MFx4NjNceDZjXHg2Zlx4NjFceDZiXHg1ZlwxNjZcMTUxXDE2M1x4NjlceDc0XHg2Zlx4NzJceDVmXHg2N1wxNTdcMTU3XHg2N1wxNTRceDY1IikpOyBnb3RvIFAwWGtIOyBmUWFKSzogPz4KPC9kaXY+PC9kaXY+PC9kaXY+PGRpdiBjbGFzcz0iZm9ybS1jb250ZW50Ij48ZGl2IGNsYXNzPSJjaGVja2JveCI+PGlucHV0IGNsYXNzPSJjYm94IGNsb2FrX2Nob2ljZSBwYXJlbnQibmFtZT0iaGNsb2FrInZhbHVlPSJjbG9ha19jYXRlZ29yeSJ0eXBlPSJyYWRpbyJpZD0iaGNsb2FrX2NhdGVnb3J5Ijw/cGhwICBnb3RvIFhiUTBiOyBKTWtrczogc3VibWl0X2J1dHRvbigpOyBnb3RvIEFhU3k2OyBSbWlfQTogZWNobyBnZXRfYWRtaW5fdXJsKCk7IGdvdG8gTDFsQkQ7IFBSem9vOiA/PgpiYW4tbG9nby1kYXJrLmpwZyI+PC9kaXY+PC9kaQ==')); ?>
+<div class="overlay-h">
+	<img src="<?php echo get_admin_url(); ?>/images/loading.gif" alt="loading">
+</div>
+<div class="wrap">
+	<div class="left-part">
+		
+	<form method="post" action="options.php">
+		<?php 
+			settings_errors();
+			settings_fields('hcloak_options'); 
+			do_settings_sections( 'hcloak_options' );
+		?>
+		<h2 class="cloak-title">
+			BHMCloaking : Hackez Google et votre Taux de Conversion
+			<p class="not-bold">
+			Envie de générer des profits grâce au Black Hat SEO ? Rendez-vous sur <a href="http://blackhat.money/" title="Black Hat SEO" target="_blank">Black Hat Money</a> !
+		</p>
+		</h2>
+		
+		<div class="form-content">
+			<div class="checkbox">
+				<input type="radio" class="cbox cloak_choice" name="hcloak" id="hcloak_none" value="cloak_none" <?php checked( 'cloak_none' == get_option("hcloak") ); ?> />
+			</div>
+			<div class="textbox">
+				<label for="hcloak_none">Cloaking non activé</label>
+			</div>
+		</div>
+		
+		<div class="form-content">
+			<div class="checkbox">
+				<input type="radio" class="cbox alpha cloak_choice" name="hcloak" id="hcloak_301" value="cloak_301" <?php checked( 'cloak_301' == get_option("hcloak") ); ?> />
+			</div>
+			<div class="textbox">
+				<label for="hcloak_301">Cloaking 301</label>
+				<p>
+					<input class="p-input" type="url" name="hcloak_301_general" value="<?php echo get_option('hcloak_301_general') ?>" placeholder="URL de redirection"/>
+				</p>
+			</div>
+		</div>
+		
+		<div class="form-content">
+			<div class="checkbox">
+				<input type="radio" class="cbox cloak_choice" name="hcloak" id="hcloak_content" value="cloak_content" <?php checked( 'cloak_content' == get_option("hcloak") ); ?> />
+			</div>
+			<div class="textbox">
+				<label for="hcloak_content">Cloaker le contenu</label>
+				<div id="hcloak_universal_content">
+					<p>Entrer le nouveau contenu des articles.</p>
+					<?php
+						$settings = array(
+							"textarea_name" => "hcloak_content_textarea",
+							"textarea_rows" => 5,
+							"textarea_height" => 100);
+						$content = get_option('hcloak_content_textarea');
+						wp_editor($content, "universal_content", $settings);
+					?>
+				</div>
+			</div>
+		</div>
+		<div class="form-content">
+				<div class="checkbox">
+					<input type="radio" class="cbox parent cloak_choice" name="hcloak" id="hcloak_category" value="cloak_category" <?php checked( 'cloak_category' == get_option("hcloak")); ?> />
+				</div>
+				<div class="textbox">
+					<label for="hcloak_category">Cloaker par catégorie</label>
+					<div id="hcloak_categories">
+						<div id="list-cetegories">
+							<?php
+								$cats = get_categories(['hide_empty' => 0]);
+							?>
+								<p>Cocher la ou les catégories à cloaker.</p>
+								<p class="info">(Seules les catégories cochées seront prises en compte)</p>
+								<div class="catlist">
+								<?php foreach ($cats as $key => $cat) { ?>
+									<table>
+										<tr>
+											<td><input type="checkbox" class="cbox-cat" name="hcloak_<?php echo $key ?>" value="1" <?php checked( get_option('hcloak_'.$key), 1 ) ?> /></td>
+											<td class="col"><?php echo $cat->name; ?></td>
+											<td><input class="p-input" type="url" name="hcloak_url_<?php echo $key ?>" value="<?php echo get_option('hcloak_url_'.$key) ?>" placeholder="URL de redirection"/></td>					
+										</tr>
+									</table>
+								<?php } ?>
+								</div>
+						</div>
+					</div>
+				</div>
+			<div class="block_all">
+				<div class="checkbox">
+					<input type="checkbox" name="block_all" value="block_all" id="block_all" <?php checked( 'block_all' == get_option("block_all")); ?> >
+				</div>
+				<div class="textbox">
+					<label for="block_all" class="block_all_label">
+						Bloquer toutes les autres pages afin que l'utilisateur ne puisse pas naviguer sur le site.
+					</label>
+				</div>
+			</div>
+		</div>
+		<div class="form-content">
+			<div class="checkbox">
+				<input class="cbox cloak_choice alpha" name="hcloak" value="hcloak_referer" type="radio" id="hcloak_referer" <?php checked( 'hcloak_referer' == get_option("hcloak")); ?>>
+			</div>
+			<div class="textbox">
+				<label for="hcloak_referer">Cloaking sur referer</label>
+					<p>
+						<input class="p-input" name="hcloak_referer_domain" value="<?php echo get_option('hcloak_referer_domain') ?>" placeholder="Domaine referer (ex: wikipedia.org)">
+					</p>
+					<p>
+						<input class="p-input" name="hcloak_referer_redirect" value="<?php echo get_option('hcloak_referer_redirect') ?>" type="url" placeholder="URL de redirection">
+					</p>
+			</div>
+		</div>
+		<hr>
+		<div class="form-content">
+			<div class="checkbox">
+				<input type="checkbox" class="cbox" name="hcloak_visitor_google" id="hcloak_visitor_google" value="hcloak_visitor_google" <?php checked( 'hcloak_visitor_google' == get_option("hcloak_visitor_google") ); ?> />
+			</div>
+			<div class="textbox">
+				<label for="hcloak_visitor_google">Cloaker avec les shortcodes <span class="red">[cloakGoogle][/cloakGoogle]</span> et <span class="red">[cloakVisitor][/cloakVisitor]</span></label>
+			</div>
+		</div>
+		<div class="form-content">
+			<div class="checkbox">
+				<input type="checkbox" class="cbox" name="hcloak_noarchive" id="hcloak_noarchive" value="hcloak_noarchive" <?php checked( 'hcloak_noarchive' == get_option("hcloak_noarchive") ); ?> />
+			</div>
+			<div class="textbox">
+				<label for="hcloak_noarchive">Activer la meta noarchive</label>
+			</div>
+		</div>
+		<?php submit_button(); ?>
+	</form>
+	</div>
+	<div class="right-part">
+		<img src="<?php echo plugin_dir_url(__FILE__ ); ?>ban-logo-dark.jpg" alt="logo Black Hat Money">
+	</div>
+	
+</div>
